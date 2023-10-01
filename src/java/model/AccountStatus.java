@@ -28,4 +28,4 @@ public class AccountStatus {
         this.name = name;
     }
     
-}
+} 

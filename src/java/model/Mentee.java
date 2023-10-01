@@ -2,8 +2,7 @@ package model;
 import java.sql.Timestamp;
 
 public class Mentee {
-    private int ID, tax_ID, location_ID, status_ID, field_ID, course_ID,
-            review_ID, mentor_ID, account_ID;
+    private int ID, tax_ID, location_ID, status_ID, field_ID, course_ID,review_ID, mentor_ID, account_ID;
     private String name, legal_representative, phoneNumber, business_entity_types;
     private Timestamp start_date;
 

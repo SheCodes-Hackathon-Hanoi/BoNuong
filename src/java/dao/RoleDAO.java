@@ -23,5 +23,4 @@ public class RoleDAO extends DBContext {
         }
         return -1;
     }
-
 }
