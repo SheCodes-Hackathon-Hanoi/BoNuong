@@ -1,6 +1,6 @@
 package connection;
 
-//import dao.*;
+import dao.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,7 +13,7 @@ public class DBContext {
 
     protected Connection connection;
 
-    private String HOSTNAME = "khuathieu.database.windows.net";
+    private String HOSTNAME = "localhost";
     private String PORT = "1433";
     private Properties properties = Helper.getPropertiesByFileName("constant/const.properties");
 

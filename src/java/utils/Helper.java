@@ -41,13 +41,9 @@ public class Helper {
         return googlePojo;
     }
 
-    public static String getRandomNumberString() {//oldpassword generate by system 
-        // It will generate 6 digit random Number.
-        // from 0 to 999999
+    public static String getRandomNumberString() {
         Random rnd = new Random();
         int number = rnd.nextInt(999999);
-
-        // this will convert any number sequence into 6 character.
         return String.format("%06d", number);
     }
 
