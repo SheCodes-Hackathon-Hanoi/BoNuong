@@ -35,7 +35,7 @@ public class LoginController extends HttpServlet{
             } 
         }
 
-        req.getSession().setAttribute("account", acc);
+       req.getSession().setAttribute("account", acc);
         
     }
     }
